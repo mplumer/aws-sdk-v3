@@ -1,0 +1,24 @@
+{
+  "name": "dynamodb-crud-api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mplumer/v3-sdk-crud.git"
+  },
+  "author": "maxplumer12@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mplumer/v3-sdk-crud/issues"
+  },
+  "homepage": "https://github.com/mplumer/v3-sdk-crud#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.46.0",
+    "@aws-sdk/util-dynamodb": "^3.46.0",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
